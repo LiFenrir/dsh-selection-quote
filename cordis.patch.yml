@@ -1,0 +1,7 @@
+# Patch layer for this dsh profile, applied after every bundle layer:
+# a top-level YAML array of loader patch entries.
+
+# ── 划词引用：纯客户端插件，无 Host 半 ──
+- insert:
+    - id: dsh-selection-quote
+      name: '@lifenrir/dsh-selection-quote'
