@@ -1,6 +1,6 @@
 {
   "name": "@lifenrir/dsh-selection-quote",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "在 DSH 会话中划选文字，一键引用到输入框。Quote selected message text into the composer in one click.",
   "license": "MIT",
   "author": "LiFenrir",
@@ -34,8 +34,8 @@
     "composer"
   ],
   "engines": {
-    "node": "^22.19 || >=24",
-    "dsh": ">=0.2.1-rc.2"
+    "node": ">=24.9",
+    "dsh": ">=0.2.1-rc.3"
   },
   "publishConfig": {
     "access": "public"
