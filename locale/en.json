@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Selection Quote",
-    "description": "Select text in a message and quote it into the composer with one click."
+    "description": "Click a quoted excerpt in a message to jump back to its source, centered in view."
   }
 }

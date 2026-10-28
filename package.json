@@ -1,7 +1,7 @@
 {
   "name": "@lifenrir/dsh-selection-quote",
-  "version": "0.1.2",
-  "description": "在 DSH 会话中划选文字，一键引用到输入框。Quote selected message text into the composer in one click.",
+  "version": "0.2.0",
+  "description": "点击会话消息中的引用文本，回到原文并居中高亮。Click a quote in a DSH message to return to its source, centered and briefly highlighted.",
   "license": "MIT",
   "author": "LiFenrir",
   "type": "module",
@@ -28,10 +28,10 @@
     "dsh",
     "dsh-plugin",
     "cordis",
-    "selection",
     "quote",
     "citation",
-    "composer"
+    "jump",
+    "highlight"
   ],
   "engines": {
     "node": ">=24.9",
@@ -44,27 +44,37 @@
     "@deepseek-ai/cordis": "^4.0.2",
     "@deepseek-ai/dsh-api-session-controller": ">=0.2.1-0 <0.3.0",
     "@deepseek-ai/dsh-client-locale": ">=0.2.1-0 <0.3.0",
-    "@deepseek-ai/dsh-client-store": ">=0.2.1-0 <0.3.0",
     "@deepseek-ai/dsh-client-ui-conversation": ">=0.2.1-0 <0.3.0",
-    "@deepseek-ai/dsh-client-ui-input-trigger": ">=0.2.1-0 <0.3.0",
-    "@deepseek-ai/dsh-client-ui-layout": ">=0.2.1-0 <0.3.0",
     "@deepseek-ai/dsh-client-ui-renderer": ">=0.2.1-0 <0.3.0",
     "@deepseek-ai/dsh-client-ui-session": ">=0.2.1-0 <0.3.0",
     "@deepseek-ai/dsh-client-ui-slots": ">=0.2.1-0 <0.3.0",
     "@deepseek-ai/dsh-session": ">=0.2.1-0 <0.3.0"
   },
   "peerDependenciesMeta": {
-    "@deepseek-ai/cordis": { "optional": true },
-    "@deepseek-ai/dsh-api-session-controller": { "optional": true },
-    "@deepseek-ai/dsh-client-locale": { "optional": true },
-    "@deepseek-ai/dsh-client-store": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-conversation": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-input-trigger": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-layout": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-renderer": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-session": { "optional": true },
-    "@deepseek-ai/dsh-client-ui-slots": { "optional": true },
-    "@deepseek-ai/dsh-session": { "optional": true }
+    "@deepseek-ai/cordis": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-api-session-controller": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-client-locale": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-client-ui-conversation": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-client-ui-renderer": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-client-ui-session": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-client-ui-slots": {
+      "optional": true
+    },
+    "@deepseek-ai/dsh-session": {
+      "optional": true
+    }
   },
   "repository": {
     "type": "git",
