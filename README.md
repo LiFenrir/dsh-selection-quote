@@ -5,7 +5,7 @@
 Click a quoted excerpt in a sent DSH message to return to the text it quoted, centered in view and briefly highlighted.
 
 - Package: `@lifenrir/dsh-selection-quote`
-- DSH: `>= 0.2.1-rc.3`
+- DSH: `>= 0.2.2-alpha.2`
 - Node: `>= 24.9`
 
 > DSH 0.2.1-rc.3 and later ship `@deepseek-ai/dsh-message-quotes`, which already owns selection quoting: select text, click the official **Quote** action, and the quote is inserted into the composer and rendered in the sent message. This plugin deliberately does **not** create quotes. It adds the missing gesture: **click a rendered quote to jump back to its source.**

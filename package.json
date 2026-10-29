@@ -1,6 +1,6 @@
 {
   "name": "@lifenrir/dsh-selection-quote",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "点击会话消息中的引用文本，回到原文并居中高亮。Click a quote in a DSH message to return to its source, centered and briefly highlighted.",
   "license": "MIT",
   "author": "LiFenrir",
@@ -35,7 +35,7 @@
   ],
   "engines": {
     "node": ">=24.9",
-    "dsh": ">=0.2.1-rc.3"
+    "dsh": ">=0.2.2-alpha.2"
   },
   "publishConfig": {
     "access": "public"
